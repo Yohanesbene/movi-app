@@ -2,8 +2,8 @@ import './App.css';
 import NavigationBar from './components/NavigationBar';
 import './style/landingPage.css'
 import Intro from './components/Intro'
-import Trending from './components/Trending'
-import Superhero from './components/Superhero'
+import BoxOffice from './components/BoxOffice'
+import TvMovies from './components/TvMovies'
 import { Button } from 'react-bootstrap'
 import { AiOutlineArrowUp } from 'react-icons/ai'
 
@@ -25,11 +25,11 @@ function App() {
 
       {/* Trending Section */}
       <div className='story-card movie-list'>
-        <Trending />
+        <BoxOffice />
       </div>
       {/* End Trending */}
       <div className='story-card movie-list'>
-        <Superhero />
+        <TvMovies />
       </div>
       {/* Superhero Section */}
 
